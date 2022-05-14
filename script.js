@@ -363,7 +363,7 @@ function login(e) {
 
     updateUI(currentAccount);
   } else {
-    containerApp.style.opacity = 0;
+    logout();
   }
   inputLoginUsername.value = inputLoginPin.value = "";
   inputLoginPin.blur();
@@ -374,7 +374,8 @@ function login(e) {
 }
 ////////Logout//////////
 function logout(e) {
-  clearInterval(timer);
+  if (timer) clearInterval(timer);
+
   labelWelcome.textContent = "Log in to get started";
   containerApp.style.opacity = 0;
 }
