@@ -23,7 +23,11 @@ This Applictaion supports various features such as -
 <br/>
 - Loan Applying
  <br/>
-
+ <br/>
+ <br/>
+This project was completed in the span of a week.
+<br/>
+<br/>
 <br/>
 This Application is available at (BankMan)[https://bankman.netlify.app]
 <br/>
