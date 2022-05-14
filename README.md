@@ -13,6 +13,8 @@ This Applictaion supports various features such as -
 - <br/>
 - Timed Login
 <br/>
+- Loader
+<br/>
 - Deleting a account
 <br/>
 - Login and Logout
@@ -21,6 +23,7 @@ This Applictaion supports various features such as -
 <br/>
 - Loan Applying
  <br/>
+
 <br/>
 This Application is available at (BankMan)[https://bankman.netlify.app]
 <br/>
@@ -40,4 +43,4 @@ This Application is available at (BankMan)[https://bankman.netlify.app]
 **LoggedIn**
 <img align="center" width="100%" src="./Anmol.png" />
 
-**Functionalities**
+
