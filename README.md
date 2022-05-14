@@ -53,7 +53,15 @@ This project was completed in the span of a week.
 <br/>
 <br/>
 <br/>
+
+
+
 This Application is available at (BankMan)[https://bankman.netlify.app]
+
+
+
+
+
 <br/>
 <br/>
  <h3>There are 7 accounts already made</h3>
