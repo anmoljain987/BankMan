@@ -29,12 +29,22 @@ This project was completed in the span of a week.
 <br/>
 <br/>
 <br/>
+
+
+
 **Tech Stack Used**
+
+
+
 <br/>
+
+
 - HTML5
 
 
 <br/>
+
+
 - CSS3
 
 <br/>
