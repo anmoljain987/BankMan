@@ -2,17 +2,30 @@
 
 <img align="center" src="./logo.png">
 - A Banking Web Application which helps user to make international and domestic transfers.
-  **This Applictaion supports various features such as -**
+ <br/>
+ <br/>
+ <br/>
+This Applictaion supports various features such as -
+<br/>
+<br/>
+<br/>
 - Real Time Money Conversion
+- <br/>
 - Timed Login
+<br/>
 - Deleting a account
+<br/>
 - Login and Logout
+<br/>
 - Transfering Money
+<br/>
 - Loan Applying
-**This Application is available at _(BankMan)[https://bankman.netlify.app]_**
+ <br/>
+<br/>
+This Application is available at (BankMan)[https://bankman.netlify.app]
 <br/>
 <br/>
- <h6>There are 7 accounts already made</h6>
+ <h3>There are 7 accounts already made</h3>
  <div>Username - aj & Password - 1111</div>
  <div>Username - nm & Password - 2222</div>
  <div>Username - vc & Password - 3333</div>
