@@ -156,12 +156,13 @@ const labelTimer = document.querySelector(".timer");
 
 const containerApp = document.querySelector(".app");
 const containerMovements = document.querySelector(".movements");
-
+const login_container = document.querySelector(".login");
 const btnLogin = document.querySelector(".login__btn");
 const btnTransfer = document.querySelector(".form__btn--transfer");
 const btnLoan = document.querySelector(".form__btn--loan");
 const btnClose = document.querySelector(".form__btn--close");
 const btnSort = document.querySelector(".btn--sort");
+const btnLogout = document.querySelector(".logout_btn");
 
 const inputLoginUsername = document.querySelector(".login__input--user");
 const inputLoginPin = document.querySelector(".login__input--pin");
@@ -170,7 +171,7 @@ const inputTransferAmount = document.querySelector(".form__input--amount");
 const inputLoanAmount = document.querySelector(".form__input--loan-amount");
 const inputCloseUsername = document.querySelector(".form__input--user");
 const inputClosePin = document.querySelector(".form__input--pin");
-
+const loader = document.querySelector(".main_preloader");
 let currentAccount, transferAccount, sorted, timer;
 
 // Creating Username
@@ -336,9 +337,6 @@ function login(e) {
     currentAccount !== undefined &&
     currentAccount.pin === Number(inputLoginPin.value)
   ) {
-    labelWelcome.textContent = `Welcome back, ${
-      currentAccount.owner.split(" ")[0]
-    }`;
     const now = new Date();
     const options = {
       hour: "numeric",
@@ -351,7 +349,17 @@ function login(e) {
       currentAccount.locale,
       options
     ).format(now);
-    containerApp.style.opacity = 100;
+    loader.classList.add("active");
+    login_container.classList.add("active");
+    logout();
+    setTimeout(() => {
+      labelWelcome.textContent = `Welcome back, ${
+        currentAccount.owner.split(" ")[0]
+      }`;
+      containerApp.style.opacity = 100;
+      loader.classList.remove("active");
+      login_container.classList.remove("active");
+    }, 3000);
 
     updateUI(currentAccount);
   } else {
@@ -363,6 +371,12 @@ function login(e) {
     clearInterval(timer);
   }
   timer = startLogOutTimer();
+}
+////////Logout//////////
+function logout(e) {
+  clearInterval(timer);
+  labelWelcome.textContent = "Log in to get started";
+  containerApp.style.opacity = 0;
 }
 
 function sorting(e) {
@@ -449,7 +463,7 @@ btnSort.addEventListener("click", sorting);
 btnTransfer.addEventListener("click", transfer);
 btnLoan.addEventListener("click", loan);
 btnClose.addEventListener("click", deleteAccount);
-
+btnLogout.addEventListener("click", logout);
 const eurToINR = 84.88;
 const eurToUSD = 1.14;
 const eurToJPY = 130.28;
