@@ -46,8 +46,3 @@ This Application is available at (BankMan)[https://bankman.netlify.app]
 
 **LoggedIn**
 <img align="center" width="100%" src="./Anmol.png" />
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 72079702b0507dd7944042be47f68948cce1f93f
