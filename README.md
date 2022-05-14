@@ -29,6 +29,20 @@ This project was completed in the span of a week.
 <br/>
 <br/>
 <br/>
+**Tech Stack Used**
+<br/>
+- HTML5
+
+
+<br/>
+- CSS3
+
+<br/>
+
+- Javascript
+<br/>
+<br/>
+<br/>
 This Application is available at (BankMan)[https://bankman.netlify.app]
 <br/>
 <br/>
