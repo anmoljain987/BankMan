@@ -306,6 +306,12 @@ h2 {
   color: rgb(247, 53, 53);
   background-color: rgb(255, 255, 255);
 }
+
+.text-loading{
+font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
 :root {
   --fg: #17181c;
   --shade1: #727274;
