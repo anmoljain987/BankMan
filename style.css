@@ -309,7 +309,8 @@ h2 {
 
 .text-loading{
 font-family: "Poppins", sans-serif;
-    font-size: 1.2rem;
+     font-size: 1.9rem;
+  font-weight: 500;
 }
 
 :root {
